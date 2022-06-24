@@ -1,0 +1,9 @@
+@import '../sass-utils/functions';
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: $bg;
+}

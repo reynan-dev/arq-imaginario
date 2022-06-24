@@ -1,0 +1,7 @@
+@import './variables';
+
+@mixin font-style ($color, $opacity, $font: $font-paragraph) {
+    font-weight: 400;
+    color: rgba($color, $opacity);
+    font-family: $font;
+}

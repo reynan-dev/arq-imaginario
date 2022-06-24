@@ -1,0 +1,12 @@
+@import './variables';
+@import './mixins';
+
+@function set-text-color($color) {
+    @if lightness( rgb($color) ) > 60 {
+        @return $black-color;
+    }
+
+    @else {
+        @return $white-color;
+    }
+}   

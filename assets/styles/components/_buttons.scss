@@ -1,0 +1,9 @@
+@import '../sass-utils/functions';
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+
+button {
+    border: 2px solid rgb(set-text-color($bg));
+    background-color: rgb($bg);
+    color: rgb(set-text-color($bg))
+}

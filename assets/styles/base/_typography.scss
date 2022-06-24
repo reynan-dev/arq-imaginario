@@ -1,0 +1,20 @@
+@import '../sass-utils/functions';
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+
+p {
+    @include font-style(set-text-color($bg), 0.7);
+}
+
+h1, h2, h3, h4, h5 {
+    @include font-style(set-text-color($bg), 1);
+}
+
+a {
+    @include font-style(set-text-color($bg), 0.7);
+    text-decoration: none;
+    &:hover {
+        @include font-style(set-text-color($bg), 0.9);
+
+    }
+}
