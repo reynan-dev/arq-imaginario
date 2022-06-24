@@ -1,0 +1,10 @@
+@import '../sass-utils/functions';
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+
+ul {
+    list-style: none;
+    li {
+        padding: 0.75rem 0rem;
+    }
+}

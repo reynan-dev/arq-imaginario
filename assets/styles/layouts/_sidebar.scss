@@ -1,0 +1,27 @@
+@import '../sass-utils/functions';
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+
+.grid-sidebar {
+    height: 100vh;
+    width: 20vw;
+    border-right: 1px solid rgba($black-color, 0.1);
+    .identify {
+        padding: 2rem 3rem;
+        img {
+            width: 80%;
+
+        }
+    }
+    nav {
+        padding: 2rem 0rem;
+    }
+    footer {
+        position: absolute;
+        bottom: 6rem;
+        padding: 2rem 0rem;
+        p {
+            text-align: center;
+        }
+    }
+}

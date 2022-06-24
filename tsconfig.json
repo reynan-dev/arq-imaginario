@@ -12,8 +12,9 @@
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
-    "noEmit": true,
+    "noEmitOnError": true,
     "experimentalDecorators": true,
+    "noImplicitAny": true,
     "baseUrl": ".",
     "paths": {
       "~/*": [
@@ -26,7 +27,8 @@
     "types": [
       "@nuxt/types",
       "@nuxtjs/axios",
-      "@types/node"
+      "@types/node",
+      "@types/jest",
     ]
   },
   "exclude": [

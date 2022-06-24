@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'arquitetura-do-imaginario',
+    title: 'Imaginando a Arquitetura - Arquitetura do Imáginario',
     htmlAttrs: {
       lang: 'en'
     },
@@ -12,7 +12,6 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 

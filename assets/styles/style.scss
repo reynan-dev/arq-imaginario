@@ -4,8 +4,12 @@
 
 // Components
 @import './components/buttons';
+@import './components/lists';
+@import './components/posts';
 
 // Pages
-
+@import './pages/homepage';
+@import './pages/posts';
 
 // Layouts
+@import './layouts/sidebar' 
