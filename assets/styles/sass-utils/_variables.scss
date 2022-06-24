@@ -1,12 +1,12 @@
 // colors default
 
-$black-color: 59, 59, 59;
-$white-color: 249, 249, 249;
+$black-color: #333;
+$white-color: #f9f9f9;
 
 // colors conditionals.
-$bg: rgb($white-color);
+
+$bg: $white-color;
 
 // font-families default
 
-$font-paragraph: 'Courier New', Courier, monospace;
-$font-title: '';
+$font-paragraph: 'Courier New', Courier, monospace ;

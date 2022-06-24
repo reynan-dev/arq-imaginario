@@ -3,7 +3,7 @@
 @import '../sass-utils/mixins';
 
 button {
-    border: 2px solid rgb(set-text-color($bg));
-    background-color: rgb($bg);
-    color: rgb(set-text-color($bg))
+    border: 2px solid set-text-color($bg);
+    background-color: $bg;
+    color: set-text-color($bg);
 }
