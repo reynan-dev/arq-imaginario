@@ -26,7 +26,7 @@
             </ul>
         </nav>
         <footer>
-            <p>&copy; 2022. Todos os direitos reservados</p>
+            <p>&copy; 2022 Arquitetura do Imáginario. Todos os direitos reservados</p>
             <p>Projeto feito por <a href="https://reynan.dev">reynan.dev</a></p>
         </footer>
     </div>

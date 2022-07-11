@@ -31,7 +31,7 @@ import Vue from "vue";
 import PrimaryPost from "./primary-post.vue";
 import SecundaryPost from "./secundary-post.vue";
 import TerciaryPost from "./terciary-post.vue";
-import GaleryPost from "./galery-post.vue";
+import GaleryPost from "../galery/galery-post.vue";
 export default Vue.extend({
     name: "feed",
     components: { PrimaryPost, SecundaryPost, TerciaryPost, GaleryPost }
